@@ -66,7 +66,7 @@ class _AboutPageState extends State<AboutPage> {
                       onTap: () => launchUrl(Uri.parse(AppLocalizations.of(context)!.appProjectLink)),
                       child: Text(
                         AppLocalizations.of(context)!.appProjectLink,
-                        style: TextStyle(color: Colors.blue),
+                        style: const TextStyle(color: Colors.blue),
                       ),
                     ),
                   ),

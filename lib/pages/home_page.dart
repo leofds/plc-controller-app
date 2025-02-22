@@ -38,7 +38,7 @@ class HomePage extends StatelessWidget {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => AboutPage(),
+        builder: (context) => const AboutPage(),
       ),
     );
   }
@@ -150,7 +150,7 @@ class HomePage extends StatelessWidget {
                             Padding(
                               padding:
                                   const EdgeInsets.symmetric(horizontal: 20.0),
-                              child: Container(
+                              child: SizedBox(
                                 height: 20,
                                 child: Row(
                                   children: [
@@ -254,7 +254,7 @@ class HomePage extends StatelessWidget {
                       }
                     : null,
                 style: TextButton.styleFrom(
-                  animationDuration: Duration(seconds: 2),
+                  animationDuration: const Duration(seconds: 2),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(18.0),
                   ),
