@@ -1,0 +1,2 @@
+/Users/leonardofernandes/development/projects/plc-controller-app/android/app/.cxx/Debug/2b2n2054/x86_64/CMakeFiles/edit_cache.dir
+/Users/leonardofernandes/development/projects/plc-controller-app/android/app/.cxx/Debug/2b2n2054/x86_64/CMakeFiles/rebuild_cache.dir

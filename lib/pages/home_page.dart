@@ -6,7 +6,7 @@ import 'package:plc_controller/pages/settings_page.dart';
 import 'package:plc_controller/provider/mqtt_client_provider.dart';
 import 'package:plc_controller/provider/preferences_provider.dart';
 import 'package:provider/provider.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import '../l10n/app_localizations.dart';
 
 enum KeyState { none, on, off }
 
